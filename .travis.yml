@@ -19,9 +19,10 @@ install:
 script:
   - gitbook install
   - book sm
-  - gitbook build
+  - gitbook build ./ _build
 
 after_script:
+  - cp -a ./_build/. ./_book/
   - cd _book
   - git add --all .
   - git commit --message "deploy from travis-ci"
