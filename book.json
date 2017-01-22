@@ -1,5 +1,7 @@
 {
     "title": "Today I Learned...",
     "author": "GaryNg",
-    "description": "Place to store my til"
+    "description": "Place to store my til",
+    "ignores": ["node_modules","_book","images"],
+    "bookname": "Today I Learned..."
 }
