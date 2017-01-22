@@ -1,7 +1,15 @@
 {
-    "title": "Today I Learned...",
-    "author": "GaryNg",
-    "description": "Place to store my til",
-    "ignores": ["node_modules","_book","images"],
-    "bookname": "Today I Learned..."
+  "title": "Today I Learned...",
+  "author": "GaryNg",
+  "description": "Place to store my til",
+  "ignores": ["node_modules","_book","images"],
+  "bookname": "Today I Learned...",
+  "plugins": ["-highlight", "prism", "prism-themes"],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    }
+  }
 }
