@@ -1,0 +1,33 @@
+language: node_js
+
+sudo: false
+
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - git config --global user.name "GaryNg-bot"
+  - git config --global user.email "garyng.zhongbo@gmail.com"
+  - git clone --branch gh-pages https://github.com/garyng/gtil-gitbook.git _book
+
+install:
+  - npm install
+
+script:
+  - gitbook install
+  - book sm
+  - gitbook build
+
+after_script:
+  - cd _book
+  - git add --all .
+  - git commit --message "deploy from travis-ci"
+  - git push "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages
+
+env:
+  global:
+    - GH_REF: github.com/garyng/gtil-gitbook.git
+    - secure: B5jantKsOJtYrINdK7TN187kgdydI/pqINhIDHyABS50MqGAUUvlsUsT/oGMRC6vF5KKL0fNGbC6zkPfBJtkdbaxxBPwKDFvkmc8fbR/TC7CjfGr3QRrBiRJHKQ4ueaWeorCcmINLDeK+5KAmdV/3dwtHiDYZYvgD6g8uJVHotXRMWRVtk6vgOHJpUmxKQ0FLoX2qRi7UbSesNruPzhLHSy7cezejol5AvADfxqy/p/MhrdHmM8bv5ouRq7nItFiYa4l9uYHD/1tDDRp3j9n179EeyFq0PRPxxB7MpbLFc3X88sdTnrQ9hPfLzVsynFZrmLAQdrNfauMybY/BNKK4ujwBpFGzzY8UXwhoqMkQ+Bg4jRSGZeLZ0Z3l7gB7q1O5Q+8RG4VKcV3tukcbi9YA77iOO2S4DWfweyXYWo7Fas5znvy6L9royNgG3e+CTZ/IqKK2VgIUPQTAos/q7SMUg0Z0D7hdDPpeoiU7+yVoVXV4vdBUOJBMoTFB+pRly8gFG0UQOHhn9pPmnrXN8TM3Kt6a87VpyKZbuUgK1otPG3Ygqkl6KF7k+cUDUYhirDyn6tVEtvk23H8TeUW8V24G4aTBZ8pyuDv2NgoKgkSyt96yRxNjekYVZYcisT6mUVX9xqd9bxUwHJ2hJJ2BqQzf2pTCV9fQNOKoqiBe9uyx4Q=
