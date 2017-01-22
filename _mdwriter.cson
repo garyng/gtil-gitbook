@@ -8,7 +8,6 @@
 #         Use menu: View -> Developer -> Reload Window.
 # NOTE 2: Strings need to be quoted.
 #
-
 # static engine of your blog
 # e.g. one of: general, html, jekyll, octopress, hexo
 siteEngine: "general"
