@@ -1,0 +1,377 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Blog And Travis Ci Setup · Today I Learned...</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="GaryNg">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    C Sharp
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../CSharp/cake-c-make.html">
+            
+                <a href="../CSharp/cake-c-make.html">
+            
+                    
+                    Cake C Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../CSharp/cake-remove-solution-folder-from-projects-property.html">
+            
+                <a href="../CSharp/cake-remove-solution-folder-from-projects-property.html">
+            
+                    
+                    Cake Remove Solution Folder From Projects Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../CSharp/squirrel-windows-installer-and-updater.html">
+            
+                <a href="../CSharp/squirrel-windows-installer-and-updater.html">
+            
+                    
+                    Squirrel Windows Installer And Updater
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Git/git-and-git-flow.html">
+            
+                <a href="../Git/git-and-git-flow.html">
+            
+                    
+                    Git And Git Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="blog-and-travis-ci-setup.html">
+            
+                <a href="blog-and-travis-ci-setup.html">
+            
+                    
+                    Blog And Travis Ci Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Blog And Travis Ci Setup</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="about-this-blog">About this Blog</h1>
+<p>This blog (actually, the whole <code>gtil</code> repo) was inspired by <a href="https://github.com/zypeh/think" target="_blank">think()</a> from <a href="https://github.com/zypeh" target="_blank">@zypeh</a> and it is powered by <del><a href="https://github.com/viko16/vue-ghpages-blog" target="_blank">vue-ghpages-blog</a></del> Gitbook.</p>
+<h1 id="deploy-via-travis-ci">Deploy via Travis CI</h1>
+<h2 id="references">References</h2>
+<p>Mainly from <a href="https://gist.github.com/domenic/ec8b0fc8ab45f39403dd" target="_blank">Auto-deploying built products to gh-pages with Travis</a><br>Unfortunately <code>travis encrypt-file</code> doesn&apos;t generate the correct key under Windows machine (see <a href="https://docs.travis-ci.com/user/encrypting-files/#Caveat" target="_blank">https://docs.travis-ci.com/user/encrypting-files/#Caveat</a> ).<br>GitHub API token can be used instead: <a href="http://www.steveklabnik.com/automatically_update_github_pages_with_travis_example/" target="_blank">Automatically Update Github Pages with Travis</a></p>
+<pre class="language-"><code class="lang-bash">travis encrypt GH_TOKEN<span class="token operator">=</span><span class="token punctuation">[</span>the token you created before<span class="token punctuation">]</span> --add
+</code></pre>
+<p>May also need: <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank">Generating a new SSH key and adding it to the ssh-agent</a></p>
+<h3 id="installing-travis">Installing Travis</h3>
+<p>Using <strong><a href="https://chocolatey.org/install" target="_blank">Chocolatey</a></strong> to install Ruby</p>
+<pre class="language-"><code>iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+</code></pre><p>Remember to run PowerShell as <em><strong>admin</strong></em><br><code>Set-ExecutionPolicy RemoteSigned -Scope Process</code> if PowerShell refuse to install</p>
+<pre class="language-"><code class="lang-bash">choco <span class="token function">install</span> ruby
+</code></pre>
+<pre class="language-"><code class="lang-bash">gem <span class="token function">install</span> travis
+</code></pre>
+<p>sidenote: string with a colon followed by a space in .yml will fail the parser...</p>
+<pre class="language-"><code>...
+- git commit -m &quot;chore(deploy): deploy from Tarvis CI&quot;
+...
+</code></pre><h3 id="rubygems-ssl-certificate-updartes">RubyGems SSL Certificate Updartes</h3>
+<p>Refer to <a href="http://guides.rubygems.org/ssl-certificate-update/" target="_blank">http://guides.rubygems.org/ssl-certificate-update/</a>  </p>
+<h1 id="editor">Editor</h1>
+<p><a href="https://atom.io/" target="_blank">Atom</a><br>Sublime Text 3? - Poor support for Chinese Language</p>
+<h2 id="plugins-for-editing-markdown-files">Plugins for editing Markdown files</h2>
+<ul>
+<li><a href="https://atom.io/packages/markdown-writer" target="_blank">markdown-writer</a><ul>
+<li>Able to customize config for each project (docs: <a href="https://github.com/zhuochun/md-writer/wiki/Settings-for-individual-projects)!" target="_blank">https://github.com/zhuochun/md-writer/wiki/Settings-for-individual-projects)!</a></li>
+<li>Ctrl + Shift + P &gt; Markown Writer: Create Project Configs</li>
+</ul>
+</li>
+<li><a href="https://atom.io/packages/tool-bar-markdown-writer" target="_blank">tool-bar-markdown-writer</a> which depends on <a href="https://atom.io/packages/tool-bar" target="_blank">tool-bar</a></li>
+<li><a href="https://atom.io/packages/markdown-preview" target="_blank">markdown-preview</a></li>
+</ul>
+<h2 id="git-plugin">Git Plugin</h2>
+<ul>
+<li><a href="https://atom.io/packages/git-plus" target="_blank">git-plus</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Blog And Travis Ci Setup","tags":["Others","Blog"],"categories":["Others"],"date":"2017-01-20 22:52","author":"GaryNg","level":"1.4.1","depth":2,"previous":{"title":"Others","level":"1.4","depth":1,"ref":"","articles":[{"title":"Blog And Travis Ci Setup","level":"1.4.1","depth":2,"path":"Others/blog-and-travis-ci-setup.md","ref":"Others/blog-and-travis-ci-setup.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"Others/blog-and-travis-ci-setup.md","mtime":"2017-01-22T12:09:21.309Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-22T12:11:52.868Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

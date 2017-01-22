@@ -1,0 +1,375 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Squirrel Windows Installer And Updater · Today I Learned...</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="GaryNg">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="cake-remove-solution-folder-from-projects-property.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    C Sharp
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="cake-c-make.html">
+            
+                <a href="cake-c-make.html">
+            
+                    
+                    Cake C Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="cake-remove-solution-folder-from-projects-property.html">
+            
+                <a href="cake-remove-solution-folder-from-projects-property.html">
+            
+                    
+                    Cake Remove Solution Folder From Projects Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="squirrel-windows-installer-and-updater.html">
+            
+                <a href="squirrel-windows-installer-and-updater.html">
+            
+                    
+                    Squirrel Windows Installer And Updater
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Git/git-and-git-flow.html">
+            
+                <a href="../Git/git-and-git-flow.html">
+            
+                    
+                    Git And Git Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Others/blog-and-travis-ci-setup.html">
+            
+                <a href="../Others/blog-and-travis-ci-setup.html">
+            
+                    
+                    Blog And Travis Ci Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Squirrel Windows Installer And Updater</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="squirrelwindows">Squirrel.Windows</h1>
+<p>GitHub: <a href="https://github.com/Squirrel/Squirrel.Windows" target="_blank">https://github.com/Squirrel/Squirrel.Windows</a></p>
+<p>Documentation: <a href="https://github.com/Squirrel/Squirrel.Windows/blob/master/docs/readme.md" target="_blank">https://github.com/Squirrel/Squirrel.Windows/blob/master/docs/readme.md</a></p>
+<h2 id="deploying-from-github">Deploying from GitHub</h2>
+<p>Refer to <a href="https://github.com/Squirrel/Squirrel.Windows/blob/master/docs/using/github.md" target="_blank">Using GitHub</a></p>
+<h2 id="nuget">NuGet</h2>
+<p><a href="https://github.com/Squirrel/Squirrel.Windows/blob/master/docs/using/nuget-package-metadata.md" target="_blank">NuGet Package Metadata</a></p>
+<p>Use <a href="https://github.com/NuGetPackageExplorer/NuGetPackageExplorer" target="_blank">NuGetPackageExplorer</a> to package files for creating the installer, but <strong>Cake</strong> is the recommended way of doing this.</p>
+<h3 id="create-nuspec-for-msbuildcake">Create .nuspec for MSBuild/Cake</h3>
+<p>Refer to <a href="https://github.com/Squirrel/Squirrel.Windows/blob/master/docs/using/visual-studio-packaging.md#example-nuspec-file-for-myapp" target="_blank">Example .nuspec file for MyApp</a></p>
+<pre class="language-"><code class="lang-xml"><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>package</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>metadata</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>id</span><span class="token punctuation">&gt;</span></span>MyApp<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>id</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment" spellcheck="true">&lt;!-- version will be replaced by MSBuild --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>0.0.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>authors</span><span class="token punctuation">&gt;</span></span>authors<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>authors</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>description</span><span class="token punctuation">&gt;</span></span>description<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>description</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>requireLicenseAcceptance</span><span class="token punctuation">&gt;</span></span>false<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>requireLicenseAcceptance</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>copyright</span><span class="token punctuation">&gt;</span></span>Copyright 2016<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>copyright</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>metadata</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>files</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>file</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>*.*<span class="token punctuation">&quot;</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>lib\net45\<span class="token punctuation">&quot;</span></span> <span class="token attr-name">exclude</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>*.pdb;*.nupkg;*.vshost.*<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>files</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>package</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>Note: Install <code>NuGet.CommandLine</code> tool via NuGet to provide <code>nuget.exe</code> for <code>squirrel</code></p>
+<pre class="language-"><code>Install-Package NuGet.CommandLine
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cake-remove-solution-folder-from-projects-property.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Cake Remove Solution Folder From Projects Property">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Squirrel Windows Installer And Updater","tags":["C#",".NET","Squirrel"],"categories":["C#"],"date":"2017-01-21 12:24","author":"GaryNg","level":"1.2.3","depth":2,"next":{"title":"Git","level":"1.3","depth":1,"ref":"","articles":[{"title":"Git And Git Flow","level":"1.3.1","depth":2,"path":"Git/git-and-git-flow.md","ref":"Git/git-and-git-flow.md","articles":[]}]},"previous":{"title":"Cake Remove Solution Folder From Projects Property","level":"1.2.2","depth":2,"path":"CSharp/cake-remove-solution-folder-from-projects-property.md","ref":"CSharp/cake-remove-solution-folder-from-projects-property.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"CSharp/squirrel-windows-installer-and-updater.md","mtime":"2017-01-22T12:09:21.307Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-22T12:11:52.868Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
