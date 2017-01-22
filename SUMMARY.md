@@ -1,5 +1,7 @@
 # Today I Learned...
 
+- Atom
+  * [Atom Auto Complete Path](Atom/atom-auto-complete-path.md)
 - C Sharp
   * [Cake C Make](CSharp/cake-c-make.md)
   * [Cake Remove Solution Folder From Projects Property](CSharp/cake-remove-solution-folder-from-projects-property.md)
