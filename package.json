@@ -7,12 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "summary": "book sm"
   },
-  "post-commit": ["summary"],
+  "post-commit": [
+    "summary"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gitbook-cli": "^2.3.0",
-    "gitbook-summary": "^1.1.4",
+    "gitbook-summary": "^1.1.4"
+  },
+  "devDependencies": {
     "post-commit": "0.0.1"
   }
 }
