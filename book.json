@@ -4,6 +4,7 @@
   "description": "Place to store my til",
   "ignores": ["node_modules","_book","images"],
   "bookname": "Today I Learned...",
+  "disableTitleFormatting": true,
   "plugins": ["-highlight", "prism", "prism-themes"],
   "pluginsConfig": {
     "prism": {
