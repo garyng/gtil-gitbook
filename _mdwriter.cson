@@ -23,7 +23,7 @@ siteDraftsDir: "_drafts/"
 sitePostsDir: "posts/"
 # directory to images from siteLocalDir
 # e.g. to use the current filename directory, can use {directory}
-siteImagesDir: "images/{year}/{month}/"
+siteImagesDir: "images/{directory}/{slug}/"
 
 # URLs to tags/posts/categories JSON files
 # https://github.com/zhuochun/md-writer/wiki/Settings-for-Front-Matters
