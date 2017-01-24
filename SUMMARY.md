@@ -9,7 +9,9 @@
 - Git
   * [Generate .gitignore in Command Line](Git/generate-gitignore-in-command-line.md)
   * [Git and Git Flow](Git/git-and-git-flow.md)
+- npm
+  * [Installing npm pacakge from GitHub](npm/installing-npm-pacakge-from-github.md)
 - Others
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
-- posts
-  * [Travis CI - Clear Dependencies Cache](posts/travis-ci-clear-dependencies-cache.md)
+- Travis
+  * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
