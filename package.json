@@ -15,8 +15,5 @@
   "dependencies": {
     "gitbook-cli": "^2.3.0",
     "gitbook-summary": "git+https://github.com/garyng/gitbook-summary.git"
-  },
-  "devDependencies": {
-    "post-commit": "0.0.1"
   }
 }
