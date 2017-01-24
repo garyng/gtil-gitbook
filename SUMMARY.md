@@ -11,6 +11,7 @@
   * [Git and Git Flow](Git/git-and-git-flow.md)
 - npm
   * [Installing npm pacakge from GitHub](npm/installing-npm-pacakge-from-github.md)
+  * [Testing npm package locally](npm/testing-npm-package-locally.md)
 - Others
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
 - Travis
