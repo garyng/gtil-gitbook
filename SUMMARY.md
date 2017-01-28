@@ -2,8 +2,8 @@
 
 - Atom
   * [Atom - Auto Complete Path](Atom/atom-auto-complete-path.md)
-- chrome
-  * [Google Chrome - Extensions for Managing Tabs](chrome/google-chrome-extensions-for-managing-tabs.md)
+- Chrome
+  * [Google Chrome - Extensions for Managing Tabs](Chrome/google-chrome-extensions-for-managing-tabs.md)
 - CSharp
   * [Cake - C# Make](CSharp/cake-c-make.md)
   * [Cake - Remove Solution Folder From .Projects Property](CSharp/cake-remove-solution-folder-from-projects-property.md)
@@ -18,3 +18,5 @@
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
 - Travis
   * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
+- VSCode
+  * [Visual Studio Code](VSCode/visual-studio-code.md)
