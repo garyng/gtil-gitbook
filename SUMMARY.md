@@ -18,6 +18,7 @@
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
+  * [Renaming files](PowerShell/renaming-files.md)
 - Travis
   * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
 - VSCode
