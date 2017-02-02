@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Git and Git Flow · Today I Learned...</title>
+        <title>Converting words to Title Case · Today I Learned...</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="renaming-files.html" />
     
-    <link rel="prev" href="generate-gitignore-in-command-line.html" />
     
 
     </head>
@@ -236,9 +236,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="generate-gitignore-in-command-line.html">
+        <li class="chapter " data-level="1.5.1" data-path="../Git/generate-gitignore-in-command-line.html">
             
-                <a href="generate-gitignore-in-command-line.html">
+                <a href="../Git/generate-gitignore-in-command-line.html">
             
                     
                     Generate .gitignore in Command Line
@@ -249,9 +249,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.2" data-path="git-and-git-flow.html">
+        <li class="chapter " data-level="1.5.2" data-path="../Git/git-and-git-flow.html">
             
-                <a href="git-and-git-flow.html">
+                <a href="../Git/git-and-git-flow.html">
             
                     
                     Git and Git Flow
@@ -358,9 +358,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../PowerShell/converting-words-to-title-case.html">
+        <li class="chapter active" data-level="1.8.1" data-path="converting-words-to-title-case.html">
             
-                <a href="../PowerShell/converting-words-to-title-case.html">
+                <a href="converting-words-to-title-case.html">
             
                     
                     Converting words to Title Case
@@ -371,9 +371,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.2" data-path="../PowerShell/renaming-files.html">
+        <li class="chapter " data-level="1.8.2" data-path="renaming-files.html">
             
-                <a href="../PowerShell/renaming-files.html">
+                <a href="renaming-files.html">
             
                     
                     Renaming files
@@ -483,7 +483,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Git and Git Flow</a>
+        <a href=".." >Converting words to Title Case</a>
     </h1>
 </div>
 
@@ -498,34 +498,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>Collections of <code>git</code> commands and workflow</p>
-<h1 id="git-commands">Git Commands</h1>
-<h2 id="cleaning">Cleaning</h2>
-<h3 id="dry-run">Dry run</h3>
-<pre class="language-"><code>git clean -n
-</code></pre><h3 id="interactive-mode">Interactive mode</h3>
-<pre class="language-"><code>git clean -i
-</code></pre><p>can be combined with other options</p>
-<h3 id="remove-directories">Remove directories</h3>
-<pre class="language-"><code>git clean -d
-</code></pre><h3 id="remove-ignored-files">Remove ignored files</h3>
-<pre class="language-"><code>git clean -x -i
-</code></pre><p>SO: <a href="http://stackoverflow.com/a/64966/1023180" target="_blank">How to remove local (untracked) files from the current Git branch?</a></p>
-<h2 id="branch">Branch</h2>
-<h3 id="delete-local-branch">Delete local branch</h3>
-<pre class="language-"><code>git -d <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>branch</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="delete-remote-branch">Delete remote branch</h3>
-<p><strong><em>Warning! Dangerous!</em></strong></p>
-<pre class="language-"><code>git push origin :<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>branch</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="renaming-a-branch">Renaming a branch</h3>
-<p>SO: <a href="http://stackoverflow.com/a/6591218/1023180" target="_blank">How to rename a local Git branch?</a></p>
-<pre class="language-"><code>git branch -m <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>old</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span>
-</code></pre><p>or to rename current branch:  </p>
-<pre class="language-"><code>git branch -m <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="cloning-specific-branch">Cloning specific branch</h3>
-<p>SO: <a href="http://stackoverflow.com/a/9920956/1023180" target="_blank">How to clone a single branch in git?</a></p>
-<h1 id="git-workflow">Git Workflow</h1>
-<p>WIP</p>
+                                <h1 id="converting-words-to-title-case">Converting words to Title Case</h1>
+<pre class="language-"><code class="lang-powershell"><span class="token punctuation">(</span><span class="token function">Get-Culture</span><span class="token punctuation">)</span><span class="token punctuation">.</span>TextInfo<span class="token punctuation">.</span>ToTitleCase<span class="token punctuation">(</span><span class="token string">&quot;War And Peace&quot;</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class="language-"><code>&gt; War And Peace
+</code></pre><h2 id="note">Note</h2>
+<p>Words entirely in <strong>UPPER CASE</strong> will not be converted<br>Use <code>.ToLower()</code> first before converting</p>
+<pre class="language-"><code class="lang-powershell"><span class="token punctuation">(</span><span class="token function">Get-Culture</span><span class="token punctuation">)</span><span class="token punctuation">.</span>TextInfo<span class="token punctuation">.</span>ToTitleCase<span class="token punctuation">(</span><span class="token string">&quot;WAR AND PEACE&quot;</span><span class="token punctuation">.</span>ToLower<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class="language-"><code>&gt; War And Peace
+</code></pre><h1 id="reference">Reference</h1>
+<p>#PSTip How to convert words to Title Case: <a href="http://www.powershellmagazine.com/2013/07/24/pstip-how-to-convert-words-to-title-case/" target="_blank">http://www.powershellmagazine.com/2013/07/24/pstip-how-to-convert-words-to-title-case/</a></p>
 
                                 
                                 </section>
@@ -553,10 +536,10 @@
 
             
                 
-                <a href="generate-gitignore-in-command-line.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Generate .gitignore in Command Line">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
+                <a href="renaming-files.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Renaming files">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -565,7 +548,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"layout":"post","title":"Git and Git Flow","tags":["Git","Git Flow"],"categories":["Git"],"date":"2017-01-20 23:46","author":"GaryNg","level":"1.5.2","depth":2,"next":{"title":"npm","level":"1.6","depth":1,"ref":"","articles":[{"title":"Installing npm pacakge from GitHub","level":"1.6.1","depth":2,"path":"npm/installing-npm-pacakge-from-github.md","ref":"npm/installing-npm-pacakge-from-github.md","articles":[]},{"title":"Testing npm package locally","level":"1.6.2","depth":2,"path":"npm/testing-npm-package-locally.md","ref":"npm/testing-npm-package-locally.md","articles":[]}]},"previous":{"title":"Generate .gitignore in Command Line","level":"1.5.1","depth":2,"path":"Git/generate-gitignore-in-command-line.md","ref":"Git/generate-gitignore-in-command-line.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"Git/git-and-git-flow.md","mtime":"2017-02-02T12:28:51.610Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-02T12:29:45.270Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Converting words to Title Case","tags":["PowerShell"],"categories":["PowerShell"],"date":"2017-02-02 19:56","author":"GaryNg","level":"1.8.1","depth":2,"next":{"title":"Renaming files","level":"1.8.2","depth":2,"path":"PowerShell/renaming-files.md","ref":"PowerShell/renaming-files.md","articles":[]},"previous":{"title":"PowerShell","level":"1.8","depth":1,"ref":"","articles":[{"title":"Converting words to Title Case","level":"1.8.1","depth":2,"path":"PowerShell/converting-words-to-title-case.md","ref":"PowerShell/converting-words-to-title-case.md","articles":[]},{"title":"Renaming files","level":"1.8.2","depth":2,"path":"PowerShell/renaming-files.md","ref":"PowerShell/renaming-files.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"PowerShell/converting-words-to-title-case.md","mtime":"2017-02-02T12:28:51.610Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-02T12:29:45.270Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
