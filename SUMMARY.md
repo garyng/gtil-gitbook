@@ -16,6 +16,8 @@
   * [Testing npm package locally](npm/testing-npm-package-locally.md)
 - Others
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
+- PowerShell
+  * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
 - Travis
   * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
 - VSCode
