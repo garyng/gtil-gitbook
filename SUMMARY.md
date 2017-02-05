@@ -7,6 +7,7 @@
 - CSharp
   * [Cake - C# Make](CSharp/cake-c-make.md)
   * [Cake - Remove Solution Folder From .Projects Property](CSharp/cake-remove-solution-folder-from-projects-property.md)
+  * [DebuggerDisplayAttribute](CSharp/debuggerdisplayattribute.md)
   * [Squirrel.Windows - Installer and Updater](CSharp/squirrel-windows-installer-and-updater.md)
 - Git
   * [Generate .gitignore in Command Line](Git/generate-gitignore-in-command-line.md)
