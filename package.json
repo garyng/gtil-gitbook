@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "summary": "book sm"
+    "sm": "book sm && git add SUMMARY.md && git commit -m \"docs(summary): update summary\""
   },
   "post-commit": [
     "summary"
