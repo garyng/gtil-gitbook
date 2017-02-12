@@ -2,6 +2,7 @@
 
 - Atom
   * [Atom - Auto Complete Path](Atom/atom-auto-complete-path.md)
+  * [Terminal in Atom](Atom/terminal-in-atom.md)
 - Chrome
   * [Google Chrome - Extensions for Managing Tabs](Chrome/google-chrome-extensions-for-managing-tabs.md)
 - CSharp
