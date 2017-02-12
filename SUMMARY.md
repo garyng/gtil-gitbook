@@ -17,6 +17,7 @@
   * [Testing npm package locally](npm/testing-npm-package-locally.md)
 - Others
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
+  * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
   * [Renaming files](PowerShell/renaming-files.md)
