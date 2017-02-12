@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Google Chrome - Extensions for Managing Tabs · Today I Learned...</title>
+        <title>DefaultIfEmpty · Today I Learned...</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,6 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="squirrel-windows-installer-and-updater.html" />
+    
+    
+    <link rel="prev" href="debuggerdisplayattribute.html" />
     
 
     </head>
@@ -144,9 +148,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.3.1" data-path="google-chrome-extensions-for-managing-tabs.html">
+        <li class="chapter " data-level="1.3.1" data-path="../chrome/google-chrome-extensions-for-managing-tabs.html">
             
-                <a href="google-chrome-extensions-for-managing-tabs.html">
+                <a href="../chrome/google-chrome-extensions-for-managing-tabs.html">
             
                     
                     Google Chrome - Extensions for Managing Tabs
@@ -176,9 +180,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../CSharp/cake-c-make.html">
+        <li class="chapter " data-level="1.4.1" data-path="cake-c-make.html">
             
-                <a href="../CSharp/cake-c-make.html">
+                <a href="cake-c-make.html">
             
                     
                     Cake - C# Make
@@ -189,9 +193,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="../CSharp/cake-remove-solution-folder-from-projects-property.html">
+        <li class="chapter " data-level="1.4.2" data-path="cake-remove-solution-folder-from-projects-property.html">
             
-                <a href="../CSharp/cake-remove-solution-folder-from-projects-property.html">
+                <a href="cake-remove-solution-folder-from-projects-property.html">
             
                     
                     Cake - Remove Solution Folder From .Projects Property
@@ -202,9 +206,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="../CSharp/debuggerdisplayattribute.html">
+        <li class="chapter " data-level="1.4.3" data-path="debuggerdisplayattribute.html">
             
-                <a href="../CSharp/debuggerdisplayattribute.html">
+                <a href="debuggerdisplayattribute.html">
             
                     
                     DebuggerDisplayAttribute
@@ -215,9 +219,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="../CSharp/defaultifempty.html">
+        <li class="chapter active" data-level="1.4.4" data-path="defaultifempty.html">
             
-                <a href="../CSharp/defaultifempty.html">
+                <a href="defaultifempty.html">
             
                     
                     DefaultIfEmpty
@@ -228,9 +232,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.5" data-path="../CSharp/squirrel-windows-installer-and-updater.html">
+        <li class="chapter " data-level="1.4.5" data-path="squirrel-windows-installer-and-updater.html">
             
-                <a href="../CSharp/squirrel-windows-installer-and-updater.html">
+                <a href="squirrel-windows-installer-and-updater.html">
             
                     
                     Squirrel.Windows - Installer and Updater
@@ -520,7 +524,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Google Chrome - Extensions for Managing Tabs</a>
+        <a href=".." >DefaultIfEmpty</a>
     </h1>
 </div>
 
@@ -535,15 +539,40 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="quicktab"><a href="https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb" target="_blank">QuickTab</a></h1>
-<blockquote>
-<p>A quick tab list and switch plugin inspired by the intelliJ IDEA java IDE</p>
-</blockquote>
-<p>Search through opened tabs, bookmark and history</p>
-<h1 id="worldbrain"><a href="https://chrome.google.com/webstore/detail/worldbrain-the-research-e/abkfbakhjpmblaafnpgjppbmioombali" target="_blank">WorldBrain</a></h1>
-<p>Search through content of all visited web pages/bookmarks</p>
-<h2 id="reference">Reference</h2>
-<p><a href="http://www.playpcesor.com/2017/01/worldbrain.html" target="_blank">&#x700F;&#x89BD;&#x5668;&#x88E1;&#x7684;&#x7B2C;&#x4E8C;&#x5927;&#x8166; WorldBrain &#x4E2D;&#x6587;&#x5168;&#x6587;&#x641C;&#x5C0B;&#x5DF2;&#x700F;&#x89BD;&#x7DB2;&#x9801;&#x5167;&#x6587;</a></p>
+                                <h1 id="defaultifempty">.DefaultIfEmpty()</h1>
+<p>Replace a collection with a default value</p>
+<pre class="language-"><code class="lang-cs"><span class="token keyword">using</span> System<span class="token punctuation">;</span>
+<span class="token keyword">using</span> System<span class="token punctuation">.</span>Collections<span class="token punctuation">.</span>Generic<span class="token punctuation">;</span>
+<span class="token keyword">using</span> System<span class="token punctuation">.</span>Linq<span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Program</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// Empty list.</span>
+        List<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span> list <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">List</span><span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">var</span> result <span class="token operator">=</span> list<span class="token punctuation">.</span><span class="token function">DefaultIfEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">// One element in collection with default(int) value.</span>
+        <span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token keyword">var</span> <span class="token keyword">value</span> <span class="token keyword">in</span> result<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token keyword">value</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment" spellcheck="true">// output: 0</span>
+        <span class="token punctuation">}</span>
+
+        result <span class="token operator">=</span> list<span class="token punctuation">.</span><span class="token function">DefaultIfEmpty</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">// One element in collection with -1 value.</span>
+        <span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token keyword">var</span> <span class="token keyword">value</span> <span class="token keyword">in</span> result<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token keyword">value</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment" spellcheck="true">// output : -1</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="reference">Reference</h1>
+<p><a href="https://www.dotnetperls.com/defaultifempty" target="_blank">C# DefaultIfEmpty Method - Dot Net Perls</a></p>
 
                                 
                                 </section>
@@ -571,6 +600,14 @@
 
             
                 
+                <a href="debuggerdisplayattribute.html" class="navigation navigation-prev " aria-label="Previous page: DebuggerDisplayAttribute">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="squirrel-windows-installer-and-updater.html" class="navigation navigation-next " aria-label="Next page: Squirrel.Windows - Installer and Updater">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -579,7 +616,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"layout":"post","title":"Google Chrome - Extensions for Managing Tabs","tags":["chrome","tab"],"categories":["chrome"],"date":"2017-01-25 01:03","author":"GaryNg","level":"1.3.1","depth":2,"next":{"title":"CSharp","level":"1.4","depth":1,"ref":"","articles":[{"title":"Cake - C# Make","level":"1.4.1","depth":2,"path":"CSharp/cake-c-make.md","ref":"CSharp/cake-c-make.md","articles":[]},{"title":"Cake - Remove Solution Folder From .Projects Property","level":"1.4.2","depth":2,"path":"CSharp/cake-remove-solution-folder-from-projects-property.md","ref":"CSharp/cake-remove-solution-folder-from-projects-property.md","articles":[]},{"title":"DebuggerDisplayAttribute","level":"1.4.3","depth":2,"path":"CSharp/debuggerdisplayattribute.md","ref":"CSharp/debuggerdisplayattribute.md","articles":[]},{"title":"DefaultIfEmpty","level":"1.4.4","depth":2,"path":"CSharp/defaultifempty.md","ref":"CSharp/defaultifempty.md","articles":[]},{"title":"Squirrel.Windows - Installer and Updater","level":"1.4.5","depth":2,"path":"CSharp/squirrel-windows-installer-and-updater.md","ref":"CSharp/squirrel-windows-installer-and-updater.md","articles":[]}]},"previous":{"title":"chrome","level":"1.3","depth":1,"ref":"","articles":[{"title":"Google Chrome - Extensions for Managing Tabs","level":"1.3.1","depth":2,"path":"chrome/google-chrome-extensions-for-managing-tabs.md","ref":"chrome/google-chrome-extensions-for-managing-tabs.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"chrome/google-chrome-extensions-for-managing-tabs.md","mtime":"2017-02-12T15:47:13.313Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-12T15:47:57.947Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"DefaultIfEmpty","tags":["C#"],"categories":["C#"],"date":"2017-02-12 23:35","author":"GaryNg","level":"1.4.4","depth":2,"next":{"title":"Squirrel.Windows - Installer and Updater","level":"1.4.5","depth":2,"path":"CSharp/squirrel-windows-installer-and-updater.md","ref":"CSharp/squirrel-windows-installer-and-updater.md","articles":[]},"previous":{"title":"DebuggerDisplayAttribute","level":"1.4.3","depth":2,"path":"CSharp/debuggerdisplayattribute.md","ref":"CSharp/debuggerdisplayattribute.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"CSharp/defaultifempty.md","mtime":"2017-02-12T15:47:13.313Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-12T15:47:57.947Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
