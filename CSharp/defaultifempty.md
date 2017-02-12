@@ -45,3 +45,5 @@ class Program
 
 # Reference
 [C# DefaultIfEmpty Method - Dot Net Perls](https://www.dotnetperls.com/defaultifempty)
+
+[SO: Sequence contains no elements exception in linq without even using Single](http://stackoverflow.com/a/8867931/1023180)
