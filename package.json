@@ -6,9 +6,6 @@
   "scripts": {
     "sm": "book sm && git add SUMMARY.md && git commit -m \"docs(summary): update summary\""
   },
-  "post-commit": [
-    "summary"
-  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
