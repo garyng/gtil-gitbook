@@ -64,6 +64,12 @@ git branch -m <new name>
 ### Cloning specific branch
 SO: [How to clone a single branch in git?](http://stackoverflow.com/a/9920956/1023180)
 
+### Creating orphan branch
+SO: [In git, is there a simple way of introducing an unrelated branch to a repository?](http://stackoverflow.com/a/4288660/1023180)
+Useful for `gh-pages`
+```
+git checkout --orphan newbranch
+```
 
 # Git Workflow
 
