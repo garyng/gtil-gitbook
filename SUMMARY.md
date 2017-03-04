@@ -12,6 +12,7 @@
   * [DefaultIfEmpty](CSharp/defaultifempty.md)
   * [Squirrel.Windows - Installer and Updater](CSharp/squirrel-windows-installer-and-updater.md)
 - Git
+  * [Fixing Filepath Casing on Windows](Git/fixing-filepath-casing-on-windows.md)
   * [Generate .gitignore in Command Line](Git/generate-gitignore-in-command-line.md)
   * [Git and Git Flow](Git/git-and-git-flow.md)
 - npm
