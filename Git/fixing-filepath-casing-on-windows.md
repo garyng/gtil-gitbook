@@ -11,7 +11,7 @@ author: 'GaryNg'
 Just found this weird problem on my GitBook (Built by Travis):  
 ![](../images/posts/fixing-filepath-casing-on-windows/2017-03-04_235518.png)  
 
-Turn out that on GitHub, there are two folders: `Others` and `others` (different casing)
+Turn out that on GitHub, there are two folders: `Others` and `others` (different casing)  
 ![Folder of same name with different casing](../images/posts/fixing-filepath-casing-on-windows/2017-03-04_234410.png)
 
 But it shows as one folder on my Windows machine:
