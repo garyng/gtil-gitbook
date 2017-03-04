@@ -19,6 +19,7 @@
   * [Testing npm package locally](npm/testing-npm-package-locally.md)
 - Others
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
+  * [Disable Ads and Promotion for Foxit Reader](Others/disable-ads-and-promotion-for-foxit-reader.md)
   * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
