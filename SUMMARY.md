@@ -23,6 +23,7 @@
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
   * [Disable Ads and Promotion for Foxit Reader](Others/disable-ads-and-promotion-for-foxit-reader.md)
   * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
+  * [Using Consolas Font in CMD](Others/using-consolas-font-in-cmd.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
   * [Renaming files](PowerShell/renaming-files.md)
