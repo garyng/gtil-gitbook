@@ -6,6 +6,7 @@
 - Chrome
   * [Google Chrome - Extensions for Managing Tabs](Chrome/google-chrome-extensions-for-managing-tabs.md)
 - CSharp
+  * [C# 7 New Features](CSharp/c-7-new-features.md)
   * [Cake - C# Make](CSharp/cake-c-make.md)
   * [Cake - Remove Solution Folder From .Projects Property](CSharp/cake-remove-solution-folder-from-projects-property.md)
   * [DebuggerDisplayAttribute](CSharp/debuggerdisplayattribute.md)
