@@ -19,6 +19,8 @@ Add a `REG_SZ` entry with the following contents:
 Name = `00`  
 Value = `Consolas`
 
+![Adding Consolas font in regedit](../images/posts/using-consolas-font-in-cmd/2017-03-21_010655.png)
+
 > NOTE: if there is already an entry for “00” you don’t need to change it. Simply  use “000” instead.
 
 > Value has
