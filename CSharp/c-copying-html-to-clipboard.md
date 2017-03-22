@@ -2,7 +2,7 @@
 layout: post
 title: 'C# Copying HTML to Clipboard'
 tags: ['C#', 'Clipboard']
-categories: ['CSharp']
+categories: ['C#']
 date: '2017-03-22 22:39'
 author: 'GaryNg'
 ---
