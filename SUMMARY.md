@@ -8,6 +8,7 @@
 - CSharp
   * [C# 7 New Features](CSharp/c-7-new-features.md)
   * [C# Copying HTML to Clipboard](CSharp/c-copying-html-to-clipboard.md)
+  * [C# enum-like Classes With String Values](CSharp/c-enum-like-classes-with-string-values.md)
   * [Cake - C# Make](CSharp/cake-c-make.md)
   * [Cake - Remove Solution Folder From .Projects Property](CSharp/cake-remove-solution-folder-from-projects-property.md)
   * [DebuggerDisplayAttribute](CSharp/debuggerdisplayattribute.md)
@@ -26,8 +27,6 @@
   * [Disable Ads and Promotion for Foxit Reader](Others/disable-ads-and-promotion-for-foxit-reader.md)
   * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
   * [Using Consolas Font in CMD](Others/using-consolas-font-in-cmd.md)
-- posts
-  * [C# enum-like Classes With String Values](posts/c-enum-like-classes-with-string-values.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
   * [Renaming files](PowerShell/renaming-files.md)
