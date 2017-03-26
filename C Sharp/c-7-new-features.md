@@ -10,6 +10,7 @@ author: 'GaryNg'
 # C# 7 New Features
 
 Refer to [New Features in C# 7.0](https://blogs.msdn.microsoft.com/dotnet/2017/03/09/new-features-in-c-7-0/)
+
 GitHub Demo Repo: https://github.com/garyng/csharp_7_new_features
 
 # Code
