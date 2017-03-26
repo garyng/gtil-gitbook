@@ -17,4 +17,4 @@ author: 'GaryNg'
 1. Save posts in folder by `categories` (C# posts in `C Sharp`, etc...)
 2. Use Title Case for folder name if possible (`C Sharp` instead of `csharp`, `VS Code` instead of `vscode`)
 3. Save images used by post under folder `images/posts/<post-file-name>`
-4. Images that doesn't belong to any post goes under `images/`
+4. Images that doesn't belong to any post go under `images/`
