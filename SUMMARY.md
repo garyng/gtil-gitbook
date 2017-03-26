@@ -15,6 +15,8 @@
   * [Squirrel.Windows - Installer and Updater](C Sharp/squirrel-windows-installer-and-updater.md)
 - Chrome
   * [Google Chrome - Extensions for Managing Tabs](Chrome/google-chrome-extensions-for-managing-tabs.md)
+- Computer Science
+  * [Backus-Naur Form](Computer Science/backus-naur-form.md)
 - Git
   * [Fixing Filepath Casing on Windows](Git/fixing-filepath-casing-on-windows.md)
   * [Generate .gitignore in Command Line](Git/generate-gitignore-in-command-line.md)
