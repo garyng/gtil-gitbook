@@ -1,0 +1,838 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Generate C# Classes from JSON · Today I Learned...</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="GaryNg">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="squirrel-windows-installer-and-updater.html" />
+    
+    
+    <link rel="prev" href="defaultifempty.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Atom
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Atom/atom-auto-complete-path.html">
+            
+                <a href="../Atom/atom-auto-complete-path.html">
+            
+                    
+                    Atom - Auto Complete Path
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Atom/terminal-in-atom.html">
+            
+                <a href="../Atom/terminal-in-atom.html">
+            
+                    
+                    Terminal in Atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Chrome
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chrome/google-chrome-extensions-for-managing-tabs.html">
+            
+                <a href="../Chrome/google-chrome-extensions-for-managing-tabs.html">
+            
+                    
+                    Google Chrome - Extensions for Managing Tabs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    CSharp
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="c-7-new-features.html">
+            
+                <a href="c-7-new-features.html">
+            
+                    
+                    C# 7 New Features
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="c-copying-html-to-clipboard.html">
+            
+                <a href="c-copying-html-to-clipboard.html">
+            
+                    
+                    C# Copying HTML to Clipboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="c-enum-like-classes-with-string-values.html">
+            
+                <a href="c-enum-like-classes-with-string-values.html">
+            
+                    
+                    C# enum-like Classes With String Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="cake-c-make.html">
+            
+                <a href="cake-c-make.html">
+            
+                    
+                    Cake - C# Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="cake-remove-solution-folder-from-projects-property.html">
+            
+                <a href="cake-remove-solution-folder-from-projects-property.html">
+            
+                    
+                    Cake - Remove Solution Folder From .Projects Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="debuggerdisplayattribute.html">
+            
+                <a href="debuggerdisplayattribute.html">
+            
+                    
+                    DebuggerDisplayAttribute
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="defaultifempty.html">
+            
+                <a href="defaultifempty.html">
+            
+                    
+                    DefaultIfEmpty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.8" data-path="generate-c-classes-from-json.html">
+            
+                <a href="generate-c-classes-from-json.html">
+            
+                    
+                    Generate C# Classes from JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="squirrel-windows-installer-and-updater.html">
+            
+                <a href="squirrel-windows-installer-and-updater.html">
+            
+                    
+                    Squirrel.Windows - Installer and Updater
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Git/fixing-filepath-casing-on-windows.html">
+            
+                <a href="../Git/fixing-filepath-casing-on-windows.html">
+            
+                    
+                    Fixing Filepath Casing on Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Git/generate-gitignore-in-command-line.html">
+            
+                <a href="../Git/generate-gitignore-in-command-line.html">
+            
+                    
+                    Generate .gitignore in Command Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Git/git-and-git-flow.html">
+            
+                <a href="../Git/git-and-git-flow.html">
+            
+                    
+                    Git and Git Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    npm
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../npm/installing-npm-pacakge-from-github.html">
+            
+                <a href="../npm/installing-npm-pacakge-from-github.html">
+            
+                    
+                    Installing npm pacakge from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../npm/testing-npm-package-locally.html">
+            
+                <a href="../npm/testing-npm-package-locally.html">
+            
+                    
+                    Testing npm package locally
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Others/blog-and-travis-ci-setup.html">
+            
+                <a href="../Others/blog-and-travis-ci-setup.html">
+            
+                    
+                    Blog and Travis CI Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Others/disable-ads-and-promotion-for-foxit-reader.html">
+            
+                <a href="../Others/disable-ads-and-promotion-for-foxit-reader.html">
+            
+                    
+                    Disable Ads and Promotion for Foxit Reader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Others/laverna-notes-taking-with-markdown.html">
+            
+                <a href="../Others/laverna-notes-taking-with-markdown.html">
+            
+                    
+                    Laverna - Notes Taking with Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Others/post-template.html">
+            
+                <a href="../Others/post-template.html">
+            
+                    
+                    Post Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../Others/using-consolas-font-in-cmd.html">
+            
+                <a href="../Others/using-consolas-font-in-cmd.html">
+            
+                    
+                    Using Consolas Font in CMD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    PowerShell
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../PowerShell/converting-words-to-title-case.html">
+            
+                <a href="../PowerShell/converting-words-to-title-case.html">
+            
+                    
+                    Converting words to Title Case
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../PowerShell/renaming-files.html">
+            
+                <a href="../PowerShell/renaming-files.html">
+            
+                    
+                    Renaming files
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    Travis
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../Travis/travis-ci-clear-dependencies-cache.html">
+            
+                <a href="../Travis/travis-ci-clear-dependencies-cache.html">
+            
+                    
+                    Travis CI - Clear Dependencies Cache
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    VSCode
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../VSCode/visual-studio-code.html">
+            
+                <a href="../VSCode/visual-studio-code.html">
+            
+                    
+                    Visual Studio Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Generate C# Classes from JSON</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="generate-c-classes-from-json">Generate C# Classes from JSON</h1>
+<p>Use <a href="http://json2csharp.com/" target="_blank">json2csharp</a></p>
+<h1 id="example">Example</h1>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+  <span class="token property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;num_found&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;numFound&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;docs&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;title_suggest&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Arduino In Action&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;publisher&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;Manning Publications&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;cover_i&quot;</span><span class="token operator">:</span> <span class="token number">7615508</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;isbn&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;1617290246&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;9781617290244&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;has_fulltext&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Arduino In Action&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;edition_key&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;OL26041428M&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;last_modified_i&quot;</span><span class="token operator">:</span> <span class="token number">1476438118</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;edition_count&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;author_name&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;Joshua Noble&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;cover_edition_key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;OL26041428M&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;seed&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;/books/OL26041428M&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;/works/OL17456639W&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;/authors/OL3501238A&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;first_publish_year&quot;</span><span class="token operator">:</span> <span class="token number">2012</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;publish_year&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token number">2012</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/works/OL17456639W&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;OL26041428M&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;1617290246&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;9781617290244&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Joshua Noble&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;OL3501238A&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Arduino In Action&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;/works/OL17456639W&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Manning Publications&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;publish_date&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;2012&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;author_key&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;OL3501238A&quot;</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;work&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;ebook_count_i&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>generates</p>
+<pre class="language-"><code class="lang-csharp">
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Doc</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">string</span> title_suggest <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> publisher <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> cover_i <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> isbn <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">bool</span> has_fulltext <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">string</span> title <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> edition_key <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> last_modified_i <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> edition_count <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> author_name <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">string</span> cover_edition_key <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> seed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> first_publish_year <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span> publish_year <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">string</span> key <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> text <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> publish_date <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">&gt;</span> author_key <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">string</span> type <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> ebook_count_i <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">RootObject</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> start <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> num_found <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> numFound <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span>Doc<span class="token operator">&gt;</span> docs <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="reference">Reference</h1>
+<p><a href="http://json2csharp.com/" target="_blank">json2csharp</a></p>
+<h1 id="see-also">See Also</h1>
+<p><a href="http://jsonclassgenerator.codeplex.com/" target="_blank">JSON C# Class Generator</a></p>
+<p>GitHub: <a href="https://github.com/JsonCSharpClassGenerator/JsonCSharpClassGenerator/" target="_blank">JsonCSharpClassGenerator</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="defaultifempty.html" class="navigation navigation-prev " aria-label="Previous page: DefaultIfEmpty">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="squirrel-windows-installer-and-updater.html" class="navigation navigation-next " aria-label="Next page: Squirrel.Windows - Installer and Updater">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Generate C# Classes from JSON","tags":["C#","JSON"],"categories":["C#"],"date":"2017-03-22 22:50","author":"GaryNg","level":"1.4.8","depth":2,"next":{"title":"Squirrel.Windows - Installer and Updater","level":"1.4.9","depth":2,"path":"CSharp/squirrel-windows-installer-and-updater.md","ref":"CSharp/squirrel-windows-installer-and-updater.md","articles":[]},"previous":{"title":"DefaultIfEmpty","level":"1.4.7","depth":2,"path":"CSharp/defaultifempty.md","ref":"CSharp/defaultifempty.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"CSharp/generate-c-classes-from-json.md","mtime":"2017-03-26T12:16:19.805Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-26T12:17:19.168Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
