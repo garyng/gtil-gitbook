@@ -33,6 +33,8 @@
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
   * [Renaming files](PowerShell/renaming-files.md)
+- ReSharper
+  * [Resharper Plugin: ZenSharp](ReSharper/resharper-plugin-zensharp.md)
 - Travis
   * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
 - VS Code
