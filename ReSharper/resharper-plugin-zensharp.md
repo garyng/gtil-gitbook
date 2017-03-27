@@ -334,7 +334,7 @@ Shortcut				|	Expand To
 
 Shortcut				|	Expand To
 ----------------|-----------
-r								| `readonly`
+`r`							| `readonly`
 
 #### Examples
 Shortcut				|	Expand To
