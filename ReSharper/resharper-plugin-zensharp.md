@@ -428,3 +428,4 @@ Shortcut				|	Expand To																			| Scope
 
 ## Reference
 [ZenSharp](https://github.com/ulex/ZenSharp)
+[ReSharper 2016.3 Help: List of Template Macros](https://www.jetbrains.com/help/resharper/2016.3/Template_Macros.html)
