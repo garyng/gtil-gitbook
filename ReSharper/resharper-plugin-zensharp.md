@@ -180,7 +180,7 @@ Shortcut	|	Note
 
 ### 3. Primitive Types
 > #### Format
-> `<t|<Type>[?][a]>[<Identifier>]`
+> `<t|<Type>>[?][a][<Identifier>]`
 >
 > #### Note
 >
@@ -231,7 +231,7 @@ Shortcut	|	Expand To
 Shortcut	|	Expand To
 ----------|-----------
 `li`			| `IList<int>`
-`~s				| `IEnumerable<string>`
+`~s`			| `IEnumerable<string>`
 
 ### 5. Properties
 > #### Format
@@ -281,7 +281,7 @@ Shortcut		|	Expand To
 
 ### 7. Methods
 > #### Format
-> `[<Method Attributes>]<Access Modifier><am|vm|M|m>[t|<Type>|T[t]][<Identifier>][,<Type>[<Identifier>]]`
+> `[<Method Attributes>]<Access Modifier><am|vm|M|m>[t|<Type>|T[<Type>|t]][<Identifier>][,<Type>[<Identifier>]]`
 
 Shortcut		|	Expand To
 ------------|-----------
