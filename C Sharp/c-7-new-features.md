@@ -13,6 +13,9 @@ Refer to [New Features in C# 7.0](https://blogs.msdn.microsoft.com/dotnet/2017/0
 
 GitHub Demo Repo: https://github.com/garyng/csharp_7_new_features
 
+## Xamarin Workbook
+A much better way to explore C# 7.0 new features: [https://github.com/xamarin/Workbooks/blob/master/csharp/csharp7/csharp7.workbook](https://github.com/xamarin/Workbooks/blob/master/csharp/csharp7/csharp7.workbook)
+
 # Code
 ## Out Variables
 ```csharp
