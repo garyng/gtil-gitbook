@@ -25,6 +25,7 @@
   * [Installing npm pacakge from GitHub](npm/installing-npm-pacakge-from-github.md)
   * [Testing npm package locally](npm/testing-npm-package-locally.md)
 - Others
+  * [Adding UNSYNCEDLYRICS with MP3Tag](Others/adding-unsyncedlyrics-with-mp3tag.md)
   * [Blog and Travis CI Setup](Others/blog-and-travis-ci-setup.md)
   * [Disable Ads and Promotion for Foxit Reader](Others/disable-ads-and-promotion-for-foxit-reader.md)
   * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
