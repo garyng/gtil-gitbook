@@ -30,6 +30,7 @@
   * [Laverna - Notes Taking with Markdown](Others/laverna-notes-taking-with-markdown.md)
   * [Post Template and Conventions](Others/post-template-and-conventions.md)
   * [Using Consolas Font in CMD](Others/using-consolas-font-in-cmd.md)
+  * [以ConvertZ 解决MP3 乱码问题](Others/以convertz-解决mp3-乱码问题.md)
 - PowerShell
   * [Converting words to Title Case](PowerShell/converting-words-to-title-case.md)
   * [Renaming files](PowerShell/renaming-files.md)
