@@ -11,9 +11,10 @@ author: 'GaryNg'
 ## Solution
 Type `10003` or `10004` on **numpad** while pressing `Alt` key.
 
-Alt + 10003 | ✓
-------------|--
-Alt + 10004 | ✔
+Keys Combination | Result
+-----------------|-------
+Alt + 10003      | ✓
+Alt + 10004      | ✔
 
 > Note: It doesn't work everywhere.
 > Try enabling `Numlock` if failed.
