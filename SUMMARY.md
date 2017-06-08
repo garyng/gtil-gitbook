@@ -23,6 +23,10 @@
   * [Generate .gitignore in Command Line](Git/generate-gitignore-in-command-line.md)
   * [Git and Git Flow](Git/git-and-git-flow.md)
   * [Git Rename Remote](Git/git-rename-remote.md)
+- GitBook
+  * [Relative Internal Links in GitBook](GitBook/relative-internal-links-in-gitbook.md)
+- HyperV
+  * [Give HyperV VM Internet Access](HyperV/give-hyperv-vm-internet-access.md)
 - npm
   * [Installing npm pacakge from GitHub](npm/installing-npm-pacakge-from-github.md)
   * [npm List All Globally Installed Packages](npm/npm-list-all-globally-installed-packages.md)
@@ -43,6 +47,8 @@
   * [Resharper Plugin: ZenSharp](ReSharper/resharper-plugin-zensharp.md)
 - Travis
   * [Travis CI - Clear Dependencies Cache](Travis/travis-ci-clear-dependencies-cache.md)
+- Ubuntu
+  * [Setting Up Samba on Ubuntu](Ubuntu/setting-up-samba-on-ubuntu.md)
 - Visual Studio
   * [Disable StyleCop in Visual Studio](Visual Studio/disable-stylecop-in-visual-studio.md)
 - VS Code
