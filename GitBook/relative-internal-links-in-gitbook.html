@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Renaming files in PowerShell · Today I Learned...</title>
+        <title>Relative Internal Links in GitBook · Today I Learned...</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,8 +57,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    
-    <link rel="prev" href="converting-words-to-title-case.html" />
     
 
     </head>
@@ -443,9 +441,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="../GitBook/relative-internal-links-in-gitbook.html">
+        <li class="chapter active" data-level="1.7.1" data-path="relative-internal-links-in-gitbook.html">
             
-                <a href="../GitBook/relative-internal-links-in-gitbook.html">
+                <a href="relative-internal-links-in-gitbook.html">
             
                     
                     Relative Internal Links in GitBook
@@ -688,9 +686,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.11.1" data-path="converting-words-to-title-case.html">
+        <li class="chapter " data-level="1.11.1" data-path="../PowerShell/converting-words-to-title-case.html">
             
-                <a href="converting-words-to-title-case.html">
+                <a href="../PowerShell/converting-words-to-title-case.html">
             
                     
                     Converting words to Title Case
@@ -701,9 +699,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.11.2" data-path="renaming-files-in-powershell.html">
+        <li class="chapter " data-level="1.11.2" data-path="../PowerShell/renaming-files-in-powershell.html">
             
-                <a href="renaming-files-in-powershell.html">
+                <a href="../PowerShell/renaming-files-in-powershell.html">
             
                     
                     Renaming files in PowerShell
@@ -909,7 +907,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Renaming files in PowerShell</a>
+        <a href=".." >Relative Internal Links in GitBook</a>
     </h1>
 </div>
 
@@ -924,60 +922,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="renaming-files">Renaming Files</h1>
-<pre class="language-"><code class="lang-powershell"><span class="token function">Get-ChildItem</span> <span class="token operator">-</span><span class="token keyword">Filter</span> <span class="token operator">*</span><span class="token punctuation">.</span>mp3 <span class="token punctuation">|</span> <span class="token function">Rename-Item</span> <span class="token operator">-</span>NewName <span class="token punctuation">{</span> <span class="token variable">$_</span><span class="token punctuation">.</span>Name <span class="token operator">-replace</span> <span class="token string">&apos;\.mp3&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;.tmp&apos;</span> <span class="token punctuation">}</span>
-</code></pre>
+                                <h1 id="relative-internal-links-in-gitbook">Relative Internal Links in GitBook</h1>
+<h2 id="solution">Solution</h2>
+<pre class="language-"><code>[Link Text](../<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>folder</span><span class="token punctuation">&gt;</span></span>/<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>page</span><span class="token punctuation">&gt;</span></span>.md#<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>)
+</code></pre><p>GitBook cli will convert <code>.md</code> link to <code>.html</code></p>
 <blockquote>
-<p><code>\</code> is for escaping the dot (otherwise it is considered as regex)</p>
+<p>Tip: Just copy from SUMMARY.md and add <code>../</code> infront of the link</p>
 </blockquote>
-<h2 id="getting-filename-without-extensions">Getting Filename without Extensions</h2>
-<p>Use <code>$_.BaseName</code>  </p>
-<pre class="language-"><code class="lang-powershell"><span class="token function">dir</span> <span class="token operator">*</span><span class="token punctuation">.</span>xml <span class="token punctuation">|</span> <span class="token function">Rename-Item</span> <span class="token operator">-</span>NewName <span class="token punctuation">{</span><span class="token variable">$_</span><span class="token punctuation">.</span>BaseName <span class="token operator">+</span> <span class="token string">&quot;.tmp&quot;</span><span class="token punctuation">}</span>
-</code></pre>
-<p>or use <code>[System.IO.Path]::GetFileNameWithoutExtension()</code></p>
-<pre class="language-"><code class="lang-powershell"><span class="token function">Rename-Item</span> <span class="token operator">-</span>NewName <span class="token punctuation">{</span><span class="token namespace">[System.IO.Path]</span>::GetFileNameWithoutExtension<span class="token punctuation">(</span><span class="token variable">$_</span><span class="token punctuation">.</span>fullname<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;.tmp&quot;</span>
-</code></pre>
-<h1 id="reference">Reference</h1>
-<p>SO: <a href="http://stackoverflow.com/questions/13382638/how-can-i-bulk-rename-files-in-powershell" target="_blank">How can I bulk rename files in PowerShell?</a></p>
-<h1 id="off-topic">Off-topic</h1>
-<p>I was downloading <a href="https://soundcloud.com/pianoman_weddings/sets/piano-instrumental-all" target="_blank">this playlist from soundcloud</a> using <a href="https://rg3.github.io/youtube-dl/" target="_blank">youtube-dl</a>, all the files downloaded are named like:</p>
-<pre class="language-"><code>A STEP YOU CAN&apos;T TAKE BACK (MOVIE BEGIN AGAIN) KEIRA KNIGHTLEY-182809059.mp3
-ADELE - ALL I ASK (piano instrumental cover)-246176513.mp3
-ADELE - HELLO (piano instrumental cover)-229785698.mp3
-ADELE - REMEDY (piano instrumental cover)-235144565.mp3
-ADELE - SOMEONE LIKE YOU (piano instrumental cover)-54692939.mp3
-ADELE - WHEN WE WERE YOUNG (piano instrumental cover)-234015646.mp3
-AL GREEN - LET&apos;S STICK TOGETHER (piano instrumental cover)-144633620.mp3
-ANDREA BOCELLI - TIME TO SAY GOODBYE (piano instrumental cover)-232869491.mp3
-ANGUS AND JULIA STONE - BIG JET PLANE-61542958.mp3
-BEATLES - HERE COMES THE SUN-53333775.mp3
-BEAUTY AND THE BEAST (piano instrumental)-153192892.mp3
-BEN FOLDS - THE LUCKIEST-53334850.mp3
-...
-</code></pre><p>wrote a simple script to rename all the files to<br>(remove <code>(piano instrumental cover)</code> and the trailing random number, then convert to Title Case)</p>
-<pre class="language-"><code>1927 - If I Could.mp3
-A Step You Can&apos;t Take Back Keira Knightley.mp3
-Adele - All I Ask.mp3
-Adele - Hello.mp3
-Adele - Remedy.mp3
-Adele - Someone Like You.mp3
-Adele - When We Were Young.mp3
-Al Green - Let&apos;s Stick Together.mp3
-Andrea Bocelli - Time To Say Goodbye.mp3
-Angus And Julia Stone - Big Jet Plane.mp3
-Beatles - Here Comes The Sun.mp3
-Beauty And The Beast.mp3
-Ben Folds - The Luckiest.mp3
-Ben Folds Five - Sky High.mp3
-Beyonce - If I Were A Boy.mp3
-Billy Joel - She&apos;s Always A Woman.mp3
-...
-</code></pre><pre class="language-"><code class="lang-powershell"><span class="token function">Get-ChildItem</span> <span class="token operator">-</span><span class="token keyword">Filter</span> <span class="token operator">*</span><span class="token punctuation">.</span>mp3 <span class="token punctuation">|</span> <span class="token function">Rename-Item</span> <span class="token operator">-</span>NewName <span class="token punctuation">{</span>
-<span class="token variable">$name</span> = <span class="token variable">$_</span><span class="token punctuation">.</span>Name <span class="token operator">-replace</span> <span class="token string">&apos;(\s\(.*\)|-\d+)+&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;&apos;</span>
-<span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token function">Get-Culture</span><span class="token punctuation">)</span><span class="token punctuation">.</span>TextInfo<span class="token punctuation">.</span>ToTitleCase<span class="token punctuation">(</span><span class="token namespace">[System.IO.Path]</span>::GetFileNameWithoutExtension<span class="token punctuation">(</span><span class="token variable">$name</span><span class="token punctuation">)</span><span class="token punctuation">.</span>ToLower<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;.mp3&quot;</span>
-<span class="token punctuation">}</span>
-</code></pre>
-<p><a href="http://www.mp3tag.de/en/" target="_blank">mp3tag</a> is then used to bulk add Artist (Benny Martin Piano), Album (Benny Martin Piano) and Cover photo (<a href="https://i1.sndcdn.com/avatars-000040739168-0afczo-t500x500.jpg" target="_blank">https://i1.sndcdn.com/avatars-000040739168-0afczo-t500x500.jpg</a>)</p>
+<h2 id="example">Example</h2>
+<p><a href="../Git/git-and-git-flow.html">Git and Git Flow</a></p>
+<h2 id="note">Note</h2>
+<p>This will not works with links that have spaces in them. For example:</p>
+<pre class="language-"><code>[Backus-Naur Form](../Computer Science/backus-naur-form.md)
+</code></pre><p><a href="../Computer%20Science/backus-naur-form.md">Backus-Naur Form</a></p>
+<p>The link will remain as <code>.md</code> link.</p>
+<p>See issue <a href="https://github.com/GitbookIO/gitbook/issues/1070" target="_blank">#1070 .md links are not converted when they have a space</a> on GitHub.</p>
+<h2 id="reference">Reference</h2>
+<p><a href="https://seadude.gitbooks.io/learn-gitbook/content/chapter1/internal.html" target="_blank">Learn GitBook - Internal Links</a></p>
 
                                 
                                 </section>
@@ -1005,10 +966,6 @@ Billy Joel - She&apos;s Always A Woman.mp3
 
             
                 
-                <a href="converting-words-to-title-case.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Converting words to Title Case">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
                 
             
         
@@ -1017,7 +974,7 @@ Billy Joel - She&apos;s Always A Woman.mp3
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"layout":"post","title":"Renaming files in PowerShell","tags":["PowerShell"],"category":"powershell","date":"2017-02-02 20:08","author":"GaryNg","level":"1.11.2","depth":2,"next":{"title":"ReSharper","level":"1.12","depth":1,"ref":"","articles":[{"title":"Resharper Plugin: ZenSharp","level":"1.12.1","depth":2,"path":"ReSharper/resharper-plugin-zensharp.md","ref":"ReSharper/resharper-plugin-zensharp.md","articles":[]}]},"previous":{"title":"Converting words to Title Case","level":"1.11.1","depth":2,"path":"PowerShell/converting-words-to-title-case.md","ref":"PowerShell/converting-words-to-title-case.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"PowerShell/renaming-files-in-powershell.md","mtime":"2017-06-08T15:03:24.077Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T15:04:30.141Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Relative Internal Links in GitBook","tags":["links","GitBook"],"category":"gitbook","date":"2017-06-08 18:04","author":"GaryNg","level":"1.7.1","depth":2,"next":{"title":"HyperV","level":"1.8","depth":1,"ref":"","articles":[{"title":"Give HyperV VM Internet Access","level":"1.8.1","depth":2,"path":"HyperV/give-hyperv-vm-internet-access.md","ref":"HyperV/give-hyperv-vm-internet-access.md","articles":[]}]},"previous":{"title":"GitBook","level":"1.7","depth":1,"ref":"","articles":[{"title":"Relative Internal Links in GitBook","level":"1.7.1","depth":2,"path":"GitBook/relative-internal-links-in-gitbook.md","ref":"GitBook/relative-internal-links-in-gitbook.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"GitBook/relative-internal-links-in-gitbook.md","mtime":"2017-06-08T15:03:24.077Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T15:04:30.141Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
