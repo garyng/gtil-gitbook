@@ -2,7 +2,7 @@
 layout: post
 title: '以ConvertZ 解决MP3 乱码问题'
 tags: ['mp3', 'ConvertZ', '乱码']
-categories: ['Others']
+category: 'others'
 date: '2017-04-24 11:52'
 author: 'GaryNg'
 ---

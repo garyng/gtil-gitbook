@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 'Adding UNSYNCEDLYRICS with MP3Tag'
-tags: ['Others','MP3Tag', 'Lyrics']
-categories: ['Others']
+tags: ['Others', 'MP3Tag', 'Lyrics']
+category: 'others'
 date: '2017-04-24 13:01'
 author: 'GaryNg'
 ---
 
 # Adding UNSYNCEDLYRICS with MP3Tag
-
+## Solution
 1. Launch MP3Tag
 2. Right click on MP3 > `Extended Tag...`  
 ![Extended Tags...](../images/posts/adding-unsyncedlyrics-with-mp3tag/2017-04-24_130149.png)
@@ -19,7 +19,7 @@ author: 'GaryNg'
 
 > Alternatively, you can use [MusicBrainz Picard](https://picard.musicbrainz.org/) to auto tag MP3 files
 
-## Lyrics Source
+### Lyrics Source
 [魔镜歌词网](https://mojim.com/cnznew.htm)
 > Regex for extracting `UNSYNCEDLYRICS` lyrics from mojim.com (paste into `Google Developer Console`)
 > ```js

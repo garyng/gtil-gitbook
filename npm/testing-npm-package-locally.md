@@ -1,13 +1,14 @@
 ---
 layout: post
 title: 'Testing npm package locally'
-tags: ['']
-categories: ['']
+tags: ['npm']
+category: 'npm'
 date: '2017-01-25 00:36'
 author: 'GaryNg'
 ---
 
-# Solution
+# Testing npm package locally
+## Solution
 In project folder (eg: `test-package`):
 ```bash
 npm link
@@ -18,7 +19,7 @@ In project using the `test-package`:
 npm link test-package
 ```
 
-# To `unlink`
+### To `unlink`
 In `test-package`
 ```bash
 npm unlink

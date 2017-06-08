@@ -2,11 +2,10 @@
 layout: post
 title: 'Visual Studio Code'
 tags: ['VSCode']
-categories: ['VSCode']
+category: 'vcode'
 date: '2017-01-28 11:51'
 author: 'GaryNg'
 ---
-
 
 # Download
 https://code.visualstudio.com/

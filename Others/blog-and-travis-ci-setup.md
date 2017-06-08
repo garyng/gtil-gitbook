@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 'Blog and Travis CI Setup'
-tags: ['Others','Blog']
-categories: ['Others']
+tags: ['Others', 'Blog']
+category: 'others'
 date: '2017-01-20 22:52'
 author: 'GaryNg'
 ---
 
 # About this Blog
-This blog (actually, the whole `gtil` repo) was inspired by [think()](https://github.com/zypeh/think) from [@zypeh](https://github.com/zypeh) and it is powered by ~~[vue-ghpages-blog](https://github.com/viko16/vue-ghpages-blog)~~ Gitbook.
+This blog (actually, the whole ~~`gtil`~~ `gtil-gitbook` repo) was inspired by [think()](https://github.com/zypeh/think) from [@zypeh](https://github.com/zypeh) and it is powered by ~~[vue-ghpages-blog](https://github.com/viko16/vue-ghpages-blog)~~ Gitbook.
 
 
 # Deploy via Travis CI

@@ -2,7 +2,7 @@
 layout: post
 title: 'Laverna - Notes Taking with Markdown'
 tags: ['Markdown']
-categories: ['Others']
+category: 'others'
 date: '2017-02-12 23:26'
 author: 'GaryNg'
 ---

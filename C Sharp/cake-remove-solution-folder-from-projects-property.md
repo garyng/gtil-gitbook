@@ -2,16 +2,17 @@
 layout: post
 title: 'Cake - Remove Solution Folder From .Projects Property'
 tags: ['C#', 'Cake', '.NET']
-categories: ['C#']
+category: 'C#'
 date: '2017-01-21 12:14'
 author: 'GaryNg'
 ---
 
-# Problem
+# Cake - Remove Solution Folder From .Projects Property
+## Problem
 `Cake`'s built-in .Projects properties will return solution folder.
 
-# Solution
-## Cake.Incubator
+## Solution
+### Use Cake.Incubator
 GitHub: https://github.com/cake-contrib/cake.incubator
 
 GitBook: https://www.gitbook.com/book/wwwlicious/cake-incubator/details

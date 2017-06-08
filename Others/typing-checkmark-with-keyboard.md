@@ -2,7 +2,7 @@
 layout: post
 title: 'Typing Checkmark with Keyboard'
 tags: ['checkmark', 'unicode']
-categories: ['others']
+category: 'others'
 date: '2017-06-08 13:31'
 author: 'GaryNg'
 ---

@@ -2,22 +2,23 @@
 layout: post
 title: 'Using Consolas Font in CMD'
 tags: ['Windows', 'Others']
-categories: ['Others']
+category: 'others'
 date: '2017-03-21 00:35'
 author: 'GaryNg'
 ---
 # Using Consolas Font in CMD
+## Solution
 > Using `Developer Command Prompt for VS2017` as an example  
 > Remember to start it as **Administrator**
 
-## Adding Consolas font to Regedit
+### Adding Consolas font to Regedit
 Open `regedit`
 
 Goto `HKLM\Software\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont`
 
 Add a `REG_SZ` entry with the following contents:  
-Name = `00`  
-Value = `Consolas`
+> Name = `00`  
+> Value = `Consolas`
 
 ![Adding Consolas font in regedit](../images/posts/using-consolas-font-in-cmd/2017-03-21_010655.png)
 
@@ -29,7 +30,7 @@ to match the font name as seen at the following registry key:
 
 [Optional] Log out and log in again / Restart
 
-## Changing CMD's Fonts
+### Changing CMD's Fonts
 Just go to Properties > Font and select `Consolas`
 
 If `Consolas` is not found:   
@@ -51,7 +52,7 @@ chcp 936
 ```
 ![](../images/posts/using-consolas-font-in-cmd/2017-03-21_010039.png)
 
-## Error Updating Shortcut
+### Error Updating Shortcut
 ![Error Updating Shortcut](../images/posts/using-consolas-font-in-cmd/2017-03-21_005808.png)
 
 Solution: Restart command promt as **Administrator** and retry

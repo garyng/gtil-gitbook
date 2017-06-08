@@ -2,7 +2,7 @@
 layout: post
 title: 'Generate C# Classes from JSON'
 tags: ['C#', 'JSON']
-categories: ['C#']
+category: 'C#'
 date: '2017-03-22 22:50'
 author: 'GaryNg'
 ---

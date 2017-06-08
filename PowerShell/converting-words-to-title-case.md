@@ -2,21 +2,22 @@
 layout: post
 title: 'Converting words to Title Case'
 tags: ['PowerShell']
-categories: ['PowerShell']
+category: 'powershell'
 date: '2017-02-02 19:56'
 author: 'GaryNg'
 ---
 
 # Converting words to Title Case
+## Solution
 ```powershell
-(Get-Culture).TextInfo.ToTitleCase("War And Peace")
+(Get-Culture).TextInfo.ToTitleCase("war and pEAce")
 ```
 
 ```
 > War And Peace
 ```
 
-## Note
+### Note
 Words entirely in **UPPER CASE** will not be converted  
 Use `.ToLower()` first before converting
 ```powershell

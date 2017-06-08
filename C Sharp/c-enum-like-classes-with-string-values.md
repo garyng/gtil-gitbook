@@ -2,7 +2,7 @@
 layout: post
 title: 'C# enum-like Classes With String Values'
 tags: ['C#']
-categories: ['C#']
+category: 'C#'
 date: '2017-03-22 23:02'
 author: 'GaryNg'
 ---

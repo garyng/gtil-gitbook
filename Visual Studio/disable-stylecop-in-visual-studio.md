@@ -2,7 +2,7 @@
 layout: post
 title: 'Disable StyleCop in Visual Studio'
 tags: ['visual studio', 'stylecop']
-categories: ['visual studio']
+category: 'visual studio'
 date: '2017-06-08 13:20'
 author: 'GaryNg'
 ---

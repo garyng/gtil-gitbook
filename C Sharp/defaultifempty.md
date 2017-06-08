@@ -2,7 +2,7 @@
 layout: post
 title: 'DefaultIfEmpty'
 tags: ['C#']
-categories: ['C#']
+category: 'C#'
 date: '2017-02-12 23:35'
 author: 'GaryNg'
 ---

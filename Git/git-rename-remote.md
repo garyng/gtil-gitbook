@@ -2,7 +2,7 @@
 layout: post
 title: 'Git Rename Remote'
 tags: ['git']
-categories: ['git']
+category: 'git'
 date: '2017-06-08 02:29'
 author: 'GaryNg'
 ---

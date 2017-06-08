@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Renaming files'
+title: 'Renaming files in PowerShell'
 tags: ['PowerShell']
-categories: ['PowerShell']
+category: 'powershell'
 date: '2017-02-02 20:08'
 author: 'GaryNg'
 ---

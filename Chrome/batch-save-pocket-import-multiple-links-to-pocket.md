@@ -2,7 +2,7 @@
 layout: post
 title: 'Batch Save Pocket - Import Multiple Links to Pocket'
 tags: ['chrome', 'pocket']
-categories: ['chrome']
+category: 'chrome'
 date: '2017-06-08 02:01'
 author: 'GaryNg'
 ---

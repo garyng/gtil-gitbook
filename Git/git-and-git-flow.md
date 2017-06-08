@@ -2,11 +2,12 @@
 layout: post
 title: 'Git and Git Flow'
 tags: ['Git', 'Git Flow']
-categories: ['Git']
+category: 'git'
 date: '2017-01-20 23:46'
 author: 'GaryNg'
 ---
 
+# Git and Git Flow
 Collections of `git` commands and workflow
 
 # Git Commands

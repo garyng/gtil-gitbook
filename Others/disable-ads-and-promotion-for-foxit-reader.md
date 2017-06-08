@@ -2,12 +2,13 @@
 layout: post
 title: 'Disable Ads and Promotion for Foxit Reader'
 tags: ['Foxit Reader', 'Others']
-categories: ['Others']
+category: 'others'
 date: '2017-03-04 22:32'
 author: 'GaryNg'
 ---
 
 # Disable Ads and Promotion for Foxit Reader
+## Solution
 Goto `File > Reference` under `General > Application Startup` section uncheck all:  
 - Show Start Page
 - Show Advertisement

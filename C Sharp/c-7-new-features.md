@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 7 New Features'
 tags: ['C#']
-categories: ['C#']
+category: 'C#'
 date: '2017-03-20 23:45'
 author: 'GaryNg'
 ---

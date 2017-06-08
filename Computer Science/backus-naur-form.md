@@ -2,7 +2,7 @@
 layout: post
 title: 'Backus-Naur Form'
 tags: ['BNF', 'Computer Science', 'CS']
-categories: ['Computer Science']
+category: 'computer science'
 date: '2017-03-26 20:58'
 author: 'GaryNg'
 ---

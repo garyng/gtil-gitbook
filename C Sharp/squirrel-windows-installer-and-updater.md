@@ -2,7 +2,7 @@
 layout: post
 title: 'Squirrel.Windows - Installer and Updater'
 tags: ['C#', '.NET', 'Squirrel']
-categories: ['C#']
+category: 'C#'
 date: '2017-01-21 12:24'
 author: 'GaryNg'
 ---

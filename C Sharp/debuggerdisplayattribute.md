@@ -2,7 +2,7 @@
 layout: post
 title: 'DebuggerDisplayAttribute'
 tags: ['C#']
-categories: ['C#']
+category: 'C#'
 date: '2017-02-05 21:20'
 author: 'GaryNg'
 ---

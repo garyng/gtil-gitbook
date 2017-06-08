@@ -2,18 +2,19 @@
 layout: post
 title: 'Google Chrome - Extensions for Managing Tabs'
 tags: ['chrome', 'tab']
-categories: ['chrome']
+category: 'chrome'
 date: '2017-01-25 01:03'
 author: 'GaryNg'
 ---
 
-# [QuickTab](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb)
+# Google Chrome - Extensions for Managing Tabs
+## [QuickTab](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb)
 > A quick tab list and switch plugin inspired by the intelliJ IDEA java IDE
 
 Search through opened tabs, bookmark and history
 
 
-# [WorldBrain](https://chrome.google.com/webstore/detail/worldbrain-the-research-e/abkfbakhjpmblaafnpgjppbmioombali)
+## [WorldBrain](https://chrome.google.com/webstore/detail/worldbrain-the-research-e/abkfbakhjpmblaafnpgjppbmioombali)
 
 Search through content of all visited web pages/bookmarks
 

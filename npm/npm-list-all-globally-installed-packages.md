@@ -2,7 +2,7 @@
 layout: post
 title: 'npm List All Globally Installed Packages'
 tags: ['npm']
-categories: ['npm']
+category: 'npm'
 date: '2017-06-08 02:37'
 author: 'GaryNg'
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 'Resharper Plugin: ZenSharp'
 tags: ['ReSharper', 'ZenSharp']
-categories: ['ReSharper']
+category: 'resharper'
 date: '2017-03-27 11:44'
 author: 'GaryNg'
 ---
@@ -160,6 +160,7 @@ scope "InCSharpClass" {
 ```
 
 ## Documentation
+These are the notes I wrote while playing with ZenSharp.
 
 ### 1. Access Modifiers
 > &lt;Access Modifiers&gt;
