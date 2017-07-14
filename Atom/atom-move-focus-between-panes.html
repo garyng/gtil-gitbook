@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Git and Git Flow · Today I Learned...</title>
+        <title>Atom - Move Focus Between Panes · Today I Learned...</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="git-rename-remote.html" />
+    <link rel="next" href="terminal-in-atom.html" />
     
     
-    <link rel="prev" href="generate-gitignore-in-command-line.html" />
+    <link rel="prev" href="atom-auto-complete-path.html" />
     
 
     </head>
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="../Atom/atom-auto-complete-path.html">
+        <li class="chapter " data-level="1.2.1" data-path="atom-auto-complete-path.html">
             
-                <a href="../Atom/atom-auto-complete-path.html">
+                <a href="atom-auto-complete-path.html">
             
                     
                     Atom - Auto Complete Path
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="../Atom/atom-move-focus-between-panes.html">
+        <li class="chapter active" data-level="1.2.2" data-path="atom-move-focus-between-panes.html">
             
-                <a href="../Atom/atom-move-focus-between-panes.html">
+                <a href="atom-move-focus-between-panes.html">
             
                     
                     Atom - Move Focus Between Panes
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../Atom/terminal-in-atom.html">
+        <li class="chapter " data-level="1.2.3" data-path="terminal-in-atom.html">
             
-                <a href="../Atom/terminal-in-atom.html">
+                <a href="terminal-in-atom.html">
             
                     
                     Terminal in Atom
@@ -387,9 +387,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="fixing-filepath-casing-on-windows.html">
+        <li class="chapter " data-level="1.6.1" data-path="../Git/fixing-filepath-casing-on-windows.html">
             
-                <a href="fixing-filepath-casing-on-windows.html">
+                <a href="../Git/fixing-filepath-casing-on-windows.html">
             
                     
                     Fixing Filepath Casing on Windows
@@ -400,9 +400,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="generate-gitignore-in-command-line.html">
+        <li class="chapter " data-level="1.6.2" data-path="../Git/generate-gitignore-in-command-line.html">
             
-                <a href="generate-gitignore-in-command-line.html">
+                <a href="../Git/generate-gitignore-in-command-line.html">
             
                     
                     Generate .gitignore in Command Line
@@ -413,9 +413,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6.3" data-path="git-and-git-flow.html">
+        <li class="chapter " data-level="1.6.3" data-path="../Git/git-and-git-flow.html">
             
-                <a href="git-and-git-flow.html">
+                <a href="../Git/git-and-git-flow.html">
             
                     
                     Git and Git Flow
@@ -426,9 +426,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.4" data-path="git-rename-remote.html">
+        <li class="chapter " data-level="1.6.4" data-path="../Git/git-rename-remote.html">
             
-                <a href="git-rename-remote.html">
+                <a href="../Git/git-rename-remote.html">
             
                     
                     Git Rename Remote
@@ -924,7 +924,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Git and Git Flow</a>
+        <a href=".." >Atom - Move Focus Between Panes</a>
     </h1>
 </div>
 
@@ -939,39 +939,13 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="git-and-git-flow">Git and Git Flow</h1>
-<p>Collections of <code>git</code> commands and workflow</p>
-<h1 id="git-commands">Git Commands</h1>
-<h2 id="cleaning">Cleaning</h2>
-<h3 id="dry-run">Dry run</h3>
-<pre class="language-"><code>git clean -n
-</code></pre><h3 id="interactive-mode">Interactive mode</h3>
-<pre class="language-"><code>git clean -i
-</code></pre><p>can be combined with other options</p>
-<h3 id="remove-directories">Remove directories</h3>
-<pre class="language-"><code>git clean -d
-</code></pre><h3 id="remove-ignored-files">Remove ignored files</h3>
-<pre class="language-"><code>git clean -x -i
-</code></pre><p>SO: <a href="http://stackoverflow.com/a/64966/1023180" target="_blank">How to remove local (untracked) files from the current Git branch?</a></p>
-<h2 id="branch">Branch</h2>
-<h3 id="delete-local-branch">Delete local branch</h3>
-<pre class="language-"><code>git -d <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>branch</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="delete-remote-branch">Delete remote branch</h3>
-<p><strong><em>Warning! Dangerous!</em></strong></p>
-<pre class="language-"><code>git push origin :<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>branch</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="renaming-a-branch">Renaming a branch</h3>
-<p>SO: <a href="http://stackoverflow.com/a/6591218/1023180" target="_blank">How to rename a local Git branch?</a></p>
-<pre class="language-"><code>git branch -m <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>old</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span>
-</code></pre><p>or to rename current branch:  </p>
-<pre class="language-"><code>git branch -m <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new</span> <span class="token attr-name">name</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h3 id="cloning-specific-branch">Cloning specific branch</h3>
-<p>SO: <a href="http://stackoverflow.com/a/9920956/1023180" target="_blank">How to clone a single branch in git?</a></p>
-<h3 id="creating-orphan-branch">Creating orphan branch</h3>
-<p>SO: <a href="http://stackoverflow.com/a/4288660/1023180" target="_blank">In git, is there a simple way of introducing an unrelated branch to a repository?</a>
-Useful for <code>gh-pages</code></p>
-<pre class="language-"><code>git checkout --orphan newbranch
-</code></pre><h1 id="git-workflow">Git Workflow</h1>
-<p>WIP</p>
+                                <h1 id="atom---move-focus-between-panes">Atom - Move Focus Between Panes</h1>
+<h2 id="solution">Solution</h2>
+<p><code>Ctrl + K, Ctrl + <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Arrow</span> <span class="token attr-name">Keys</span><span class="token punctuation">&gt;</span></span></code></p>
+<p>or check in <code>Settings</code> &gt; <code>Keybindings</code> &gt; Search for <code>focus-pane</code></p>
+<p><img src="../images/posts/atom-move-focus-between-panes/2017-07-15_004320.png" alt="Checking keybindings in Atom"></p>
+<h2 id="reference">Reference</h2>
+<p><a href="https://github.com/atom/atom/issues/2670#issuecomment-258660394" target="_blank">https://github.com/atom/atom/issues/2670#issuecomment-258660394</a></p>
 
                                 
                                 </section>
@@ -999,12 +973,12 @@ Useful for <code>gh-pages</code></p>
 
             
                 
-                <a href="generate-gitignore-in-command-line.html" class="navigation navigation-prev " aria-label="Previous page: Generate .gitignore in Command Line">
+                <a href="atom-auto-complete-path.html" class="navigation navigation-prev " aria-label="Previous page: Atom - Auto Complete Path">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="git-rename-remote.html" class="navigation navigation-next " aria-label="Next page: Git Rename Remote">
+                <a href="terminal-in-atom.html" class="navigation navigation-next " aria-label="Next page: Terminal in Atom">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1015,7 +989,7 @@ Useful for <code>gh-pages</code></p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"layout":"post","title":"Git and Git Flow","tags":["Git","Git Flow"],"category":"git","date":"2017-01-20 23:46","author":"GaryNg","level":"1.6.3","depth":2,"next":{"title":"Git Rename Remote","level":"1.6.4","depth":2,"path":"Git/git-rename-remote.md","ref":"Git/git-rename-remote.md","articles":[]},"previous":{"title":"Generate .gitignore in Command Line","level":"1.6.2","depth":2,"path":"Git/generate-gitignore-in-command-line.md","ref":"Git/generate-gitignore-in-command-line.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"Git/git-and-git-flow.md","mtime":"2017-07-14T16:57:31.758Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-14T17:00:10.337Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"Atom - Move Focus Between Panes","tags":["atom"],"category":"atom","date":"2017-07-15 00:41","author":"GaryNg","level":"1.2.2","depth":2,"next":{"title":"Terminal in Atom","level":"1.2.3","depth":2,"path":"Atom/terminal-in-atom.md","ref":"Atom/terminal-in-atom.md","articles":[]},"previous":{"title":"Atom - Auto Complete Path","level":"1.2.1","depth":2,"path":"Atom/atom-auto-complete-path.md","ref":"Atom/atom-auto-complete-path.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","prism","prism-themes"],"ignores":["node_modules","_book","images"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"prism-themes":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"GaryNg","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Today I Learned...","disableTitleFormatting":true,"variables":{},"title":"Today I Learned...","gitbook":"*","description":"Place to store my til"},"file":{"path":"Atom/atom-move-focus-between-panes.md","mtime":"2017-07-14T16:57:31.758Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-14T17:00:10.337Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
